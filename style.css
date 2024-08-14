@@ -1,8 +1,90 @@
-header {
-    background-color: rgb(74, 138, 198);
-
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.open-sans-thin {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header {
+    background-image: linear-gradient(#81b5e5, #6baeed);
+    color: whitesmoke;
+}
+
+button {
+    background-color: #256199;
+    color: whitesmoke;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 16px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 video {
     max-height: 40%;
+}
+
+footer {
+    padding: 2em;
+}
+
+.info-box {
+    background-image: linear-gradient(#6baeed, #0c3a65);
+    color: whitesmoke;
+}
+
+.features-card {
+    padding: 4em;
+}
+
+.card-trio {
+    padding-bottom: 6em;
+    font-family: "Open Sans";
+}
+
+.center-card {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 16px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lower-card {
+    font-family: "Open Sans";
+    align-self: center;
+}
+
+.lower-card-title {
+    font-weight: 500;
+    font-size: 2.75em;
+    padding-bottom: 2em;
+}
+
+.logo-font {
+    font-family: "Pacifico";
+    font-size: x-large;
+}
+
+.light-bg {
+    background-color: #6baeed;
 }
